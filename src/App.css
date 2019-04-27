@@ -1,0 +1,62 @@
+body{
+  margin-top:77px;
+}
+
+.container{
+  max-width: 1024px;
+  margin:auto;
+}
+
+a{
+  text-decoration: none;
+}
+
+.home a{
+  color: white;
+}
+
+div p.limit{
+/* autoprefixer: off */
+    -webkit-box-orient: vertical;
+    /* autoprefixer: on */
+    display: block;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.avatar{
+  margin-right:15px;
+  float: left;
+  margin-left:20px;
+}
+
+.name{
+  width: 100%;
+  margin:0;
+}
+
+.status{
+  font-size: 0.8em;
+   margin:0;
+   color:#aaa;
+}
+
+.description{
+  color:#0a0a0a;
+}
+
+.clearfix{
+  clear: both;
+}
+
+.divide{
+margin: 15px 0;
+    border: 1px solid #eee;
+    height: 0px;
+}
+
+p.venue{
+  margin-left:76px;
+}
