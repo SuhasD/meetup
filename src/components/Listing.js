@@ -55,14 +55,14 @@ class Listing extends Component {
     const { history } = this.props;
       return (
         <div className='container'>
-            <Grid container spacing={24}>
+            <Grid container spacing={24} >
               {
                 this.state.meets.map((val, key) => {
                   const regex = /(<([^>]+)>)/ig;
                   const result = val.description.replace(regex, '');
 
                   return(
-                    <Grid item xs={4} key={key}>
+                    <Grid item xs={4} key={key} className='grid3'>
                       <Card className='card' >
                       <CardContent>
                         <Typography variant="h5" component="h2">
